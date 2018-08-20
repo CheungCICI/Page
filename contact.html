@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Stylish Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/cs.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+<!--pop-up-->
+<script src="js/menu_jquery.js"></script>
+<!--//pop-up-->
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<!-- <div class="logo">
+				 <a href="index.html"> <img src="images/logo.png" alt=""/></a>
+			</div> -->
+			<div class="enam"><span>绵阳珞升亿控</span></div>
+			<div class="top-nav">
+				<span class="menu"><img src="images/menu.png" alt=""/></span>
+				<ul>
+					<li><a  href="index.html">首页</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a href="server.html">我们的服务</a></li>
+					<li><a href="product.html">产品形态</a></li>
+					<!-- <li><a href="want.html">招贤纳士</a></li> -->
+					<li><a class="active" href="contact.html">联系我们</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+							$("span.menu").click(function(){
+								$(".top-nav ul").slideToggle("slow" , function(){
+								});
+							});
+				</script>
+				<!-- script-for-menu -->
+			</div>
+
+			<div class="clearfix"> </div>
+			<!-- search-scripts -->
+			<script src="js/classie.js"></script>
+			<script src="js/uisearch.js"></script>
+				<script>
+					new UISearch( document.getElementById( 'sb-search' ) );
+				</script>
+			<!-- //search-scripts -->
+		</div>
+	</div>
+	<!--//header-->
+	<!--banner-->
+	<div class="about-banner about-bnr"></div>
+
+		<!-- <div class="banner1 about-bnr"></div> -->
+		<!-- <div class="ccc about-bnr"></div> -->
+
+	<!--//banner-->
+	<!--contact-->
+	<div class="contact">
+
+			<div class="container">
+				 <div class="address">
+						<p class="col-md-4"><span asp><img src="images/address.png"></span><span>联系地址<br>绵阳市涪城区未来城（平政一巷)3号楼2单元1304 <span></p>
+						<p class="col-md-4"><span asp><img src="images/tel.png"></span><span>联系电话<br>0816-8335263</span></p>
+						<p class="col-md-4"><span asp><img src="images/email.png"></span><span>联系邮箱<br><a href="javascript:;">banjiu.hf@qq.com</a></span></p>
+				</div>
+     </div>
+     <br>
+				<div class="col-md-12 map">
+					<iframe src="map.html"></iframe>
+				</div>
+
+				<div class="clearfix"> </div>
+
+	</div>
+	<!--//contact-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+		<div class="footer-di"><img src="images/tel2.png"><span class="footer-sp">0816-8335263</span></div>
+		<div class="footer-nav">
+			<a href="index.html">首页</a>
+			<a href="about.html">关于我们</a>
+			<a href="server.html">我们的服务</a>
+			<a href="product.html">产品形态</a>
+			<a href="contact.html">联系我们</a>
+		</div>
+			<div class="footer-left">
+				<p>Copyright &copy; 2018 绵阳珞升科技有限公司  版权所有</p>
+			</div>
+
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

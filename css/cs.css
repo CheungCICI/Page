@@ -1,0 +1,142 @@
+.enam{
+  font-size:4rem;
+  float:left;
+  color:#0099FF;
+  margin-top: 1rem;
+}
+[pp]{
+  font-size:3rem;
+}
+[pcon]{
+  width:85%;
+}
+[ula]{
+  font-size:1.1em;
+}
+.index-pp{
+  color:black!important;
+  /*font-size:2rem!important;*/
+}
+.about,.about-art{
+  margin:0 1rem 0 1rem;
+}
+.about-a>h1{
+     text-align: center;
+     /*font-size:4rem;*/
+}
+.about-a p {
+    /*font-size: 1.5em;*/
+    color: #87807c;
+    line-height: 1.6em;
+    margin: 1.5em 0 1em;
+}
+.about-a>h1:nth-child(2){
+  color:#D8D8D8;
+}
+.title{
+  text-align: center;
+  font-size:3rem;
+}
+.title1{
+  color:#D8D8D8;
+}
+.about-team{
+  margin-top:-5rem;
+}
+.address span{
+  font-size:1.6rem;
+  color:black;
+}
+.title2{
+  color:#AA846D;
+}
+.gen{
+  display: block;
+  width:15rem;
+  height:0.5rem;
+  background:#0099FF;
+  margin: 0 auto;
+}
+.news-info p{
+  text-align: center;
+  font-size:2rem;
+  color: #87807c;
+}
+.news-info{
+  margin-top:2rem;
+}
+.work-grids.work-imgs {
+    background: url(../images/bb.jpg)no-repeat;
+    background-size: 100% 100%;
+    min-height: 550px;
+   margin-top:5rem;
+}
+.work-grids.work-imgs1 {
+    background: url(../images/xs.jpg)no-repeat;
+    background-size: 100% 100%;
+    min-height: 400px;
+   margin-top:8rem;
+}
+.gen1{
+  display: block;
+  width:5rem;
+  height:0.2rem;
+  background:#0099FF;
+
+}
+
+[image]{
+  display: block;
+  width: 100%;
+border: 1px solid transparent;
+}
+
+.about-team h1{
+   font-size: 3em;
+}
+hr{
+	border: 1px solid  transparent;
+}
+.work-grids.work-index1 {
+    background: url(images/ab.jpg)no-repeat;
+    background-size: 100% 100%;
+    min-height: 400px;
+   margin-top:8rem;
+}
+.index-aa{
+  border-radius:18px;
+  border: none;
+  background: grey;
+  margin-top:3rem;
+  width:70px;
+}
+.footer-di{
+  margin-top:2rem;
+}
+#ser-p{
+   text-align: left;
+   font-size:2rem;
+}
+/*.footer-sp{
+  font-size:3rem;
+  color: white;
+}
+#ser-p{
+   text-align: left;
+   font-size:2rem;
+}
+[pp]{
+  font-size:3rem;
+}
+.footer-nav{
+  font-size:1rem;
+  margin-top:10px;
+}
+.footer-nav a{
+  color:#B3B3B3;
+  padding:0 0 0 15px;
+}
+.footer-nav a:hover{
+  color:grey;
+}
+*/

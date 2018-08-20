@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Stylish Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/cs.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/animate.css">
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+<!--pop-up-->
+<script src="js/menu_jquery.js"></script>
+<!--//pop-up-->
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="enam" en><span>绵阳珞升亿控</span></div>
+			<div class="top-nav">
+				<span class="menu"><img src="images/menu.png" alt=""/></span>
+				<ul>
+					<li><a class="active" href="index.html">首页</a></li>
+					<li><a href="about.html">关于我们</a></li>
+					<li><a href="server.html">我们的服务</a></li>
+					<li><a href="product.html">产品形态</a></li>
+					<!-- <li><a href="want.html">招贤纳士</a></li> -->
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+							$("span.menu").click(function(){
+								$(".top-nav ul").slideToggle("slow" , function(){
+								});
+							});
+				</script>
+
+			</div>
+
+			<div class="clearfix"> </div>
+			<!-- search-scripts -->
+			<script src="js/classie.js"></script>
+			<script src="js/uisearch.js"></script>
+				<script>
+					new UISearch( document.getElementById( 'sb-search' ) );
+				</script>
+			<!-- //search-scripts -->
+		</div>
+	</div>
+	<!--//header-->
+	<!--banner-->
+	<div class="banner">
+		<!-- banner-text Slider starts Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+				$(function () {
+				// Slideshow 3
+					$("#slider3").responsiveSlides({
+					auto: true,
+					pager:true,
+					nav:true,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+					$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+						$('.events').append("<li>after event fired.</li>");
+					}
+				});
+			});
+		</script>
+		<!--//End-slider-script -->
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>
+					<div class="banner1">
+					</div>
+				</li>
+				<li>
+					<div class="banner1 banner2">
+					</div>
+				</li>
+				<li>
+					<div class="banner1 banner3">
+					</div>
+				</li>
+			</ul>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//banner-->
+
+	<!--work-->
+	 <div class="container">
+
+	<div class="work animated bounceInDown puse">
+		<div class="col-md-7 work-grids">
+			<h3>关于我们</h3>
+			<p class="index-pp">绵阳珞升亿控科技有限公司 </p>
+			<p>公司理念：<br>
+我们以诚信赢得市场，以质量铸造品牌。汇聚英杰，铸就英才，缔造完美。我们坚信：优质的互联网产品，是一种情怀，一种品质，
+它用良好的质量维系消费者对企业的信赖。
+ </P>
+    <div>
+    	<a class="btn btn-primary index-aa" href="about.html">MORE</a>
+    </div>
+		</div>
+		<div class="col-md-5 work-grids work-img1"></div>
+		<div class="clearfix"> </div>
+	</div>
+
+	<div class="work animated bounceInUp puse">
+	<div class="col-md-6 work-grids work-img2"></div>
+		<div class="col-md-6 work-grids work-item">
+			<h3>我们的服务</h3>
+			<p>绵阳珞升亿控科技有限公司是集软件开发、软件销售为一体的互联网一站式服务型企业。公司业务涉及计算机软硬件开发、软件销售及维护、农副产品、日用百货生产及销售、自营货物及技术进出口业务等。
+				从成立自今，我们始终专注于高水准的品牌服务，了解市场，并善于将创新运用其中。</p>
+			<ul>
+				<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">计算机软硬件开发</a></li>
+				<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">软件销售、维护</a></li>
+				<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">农副产品、日用百货生产及销售</a></li>
+				<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="#">自营货物及技术进出口业务</a></li>
+			</ul>
+      	<a class="btn btn-primary index-aa" href="server.html">MORE</a>
+		</div>
+
+		<div class="clearfix"> </div>
+	</div>
+
+	</div>
+
+	<div class="work work-con">
+	<div class="col-md-6 work-grids work-img3"></div>
+		<div class="col-md-5 work-grids work-item">
+			<h3>产品形态</h3>
+			<p>这里拥有最无敌的创意、最严谨的技术、最精美的视觉、最具国际化的意识和前瞻性思维！
+				打破传统互联网产品开发模式，让所有企业能够在最短时间满足定制化需求。</p>
+      	<a class="btn btn-primary index-aa" href="product.html">MORE</a>
+		</div>
+
+		<div class="clearfix"> </div>
+	</div>
+
+
+			<!--FlexSlider-->
+					<script defer src="js/jquery.flexslider.js"></script>
+					<script type="text/javascript">
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+			<!--End-slider-script-->
+		</div>
+	</div>
+	<!--//services-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+		<div class="footer-di"><img src="images/tel2.png"><span class="footer-sp">0816-8335263</span></div>
+		<div class="footer-nav">
+			<a href="index.html">首页</a>
+			<a href="about.html">关于我们</a>
+			<a href="server.html">我们的服务</a>
+			<a href="product.html">产品形态</a>
+			<a href="contact.html">联系我们</a>
+		</div>
+			<div class="footer-left">
+				<p>Copyright &copy; 2018 绵阳珞升科技有限公司  版权所有<a target="_blank" href=""></a></p>
+			</div>
+
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
